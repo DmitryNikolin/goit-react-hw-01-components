@@ -1,0 +1,41 @@
+.statistics {
+  width: 256px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 9px 3px tomato;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 30px;
+  font-size: medium;
+  font-weight: 700;
+  color: green;
+}
+
+.statList {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  width: 52px;
+  text-align: center;
+}
+
+.label {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.percentage {
+  display: block;
+}

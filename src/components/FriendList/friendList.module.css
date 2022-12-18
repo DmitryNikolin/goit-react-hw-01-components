@@ -1,0 +1,9 @@
+.friendlist {
+  display: flex;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
