@@ -10,26 +10,26 @@ const Profile = props => {
     stats: { followers, views, likes },
   } = props;
   return (
-    <div class={s.profile}>
-      <div class={s.description}>
-        <img src={avatar} alt={username} class={s.avatar} />
-        <p class={s.username}>{username}</p>
-        <p class={s.tag}>@{tag}</p>
-        <p class={s.location}>{location}</p>
+    <div className={s.profile}>
+      <div className={s.description}>
+        <img src={avatar} alt={username} className={s.avatar} />
+        <p className={s.username}>{username}</p>
+        <p className={s.tag}>@{tag}</p>
+        <p className={s.location}>{location}</p>
       </div>
 
-      <ul class={s.stats}>
+      <ul className={s.stats}>
         <li>
-          <span class={s.label}>Followers</span>
-          <span class={s.quantity}>{followers}</span>
+          <span className={s.label}>Followers</span>
+          <span className={s.quantity}>{followers}</span>
         </li>
         <li>
-          <span class={s.label}>Views</span>
-          <span class={s.quantity}>{views}</span>
+          <span className={s.label}>Views</span>
+          <span className={s.quantity}>{views}</span>
         </li>
         <li>
-          <span class={s.label}>Likes</span>
-          <span class={s.quantity}>{likes}</span>
+          <span className={s.label}>Likes</span>
+          <span className={s.quantity}>{likes}</span>
         </li>
       </ul>
     </div>

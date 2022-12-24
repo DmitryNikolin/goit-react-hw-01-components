@@ -3,10 +3,10 @@ import s from './friendListItem.module.css';
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
-    <li class={s.item}>
-      <span class={s[isOnline]}>{isOnline}</span>
-      <img class={s.avatar} src={avatar} alt={name} width="48" />
-      <p class={s.name}>{name}</p>
+    <li className={s.item}>
+      <span className={s[isOnline]}>{isOnline}</span>
+      <img className={s.avatar} src={avatar} alt={name} width="48" />
+      <p className={s.name}>{name}</p>
     </li>
   );
 };
